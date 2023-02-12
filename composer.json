@@ -1,0 +1,36 @@
+{
+    "name": "singhjaryal/laravel-collection-and-helpers",
+    "description": "Laravel helpers and collection libraries for the other php prorojects.",
+    "type": "library",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/singhjaryal2539/laravel-collections-and-helpers/issues",
+        "source": "https://github.com/singhjaryal2539/laravel-collections-and-helpers"
+    },
+    "authors": [
+        {
+            "name": "Singh Jaryal",
+            "email": "jaryaltester@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SinghJaryal\\": "src/"
+        },
+        "files": [
+            "src/Illuminate/Support/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    },
+    "require": {
+        "voku/portable-ascii": "^2.0",
+        "symfony/uid": "^6.2",
+        "league/commonmark": "^2.3",
+        "ramsey/uuid": "^4.7",
+        "nesbot/carbon": "^2.66",
+        "vlucas/phpdotenv": "^5.5",
+        "doctrine/inflector": "^2.0"
+    }
+}
